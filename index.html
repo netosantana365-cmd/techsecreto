@@ -62,6 +62,16 @@ h2 { font-family:Orbitron,sans-serif; font-size:15px; letter-spacing:1px; color:
 .pnome { display:block; font-family:Orbitron,sans-serif; font-weight:900; font-size:20px; color:var(--ambar); letter-spacing:1px; }
 .ppitch { display:block; margin:6px 0 12px; color:#e9dcc0; font-size:14px; }
 .pbotao { display:inline-block; font-weight:800; color:#05070f; background:linear-gradient(90deg,var(--ambar),#ffd27a); padding:10px 22px; border-radius:12px; }
+.destaque { display:block; position:relative; text-decoration:none; color:var(--texto); text-align:center; margin:4px 0 14px;
+  padding:16px 16px 20px; border-radius:22px; border:2px solid var(--ambar); background:linear-gradient(160deg,#3a2606,#0b1328 65%);
+  box-shadow:0 0 30px #ffb02055; animation:entra .6s both, brilha 2.6s ease-in-out infinite; }
+.dfoto { display:block; width:100%; aspect-ratio:1 / 1; object-fit:cover; border-radius:18px; border:1px solid #ffb02088;
+  box-shadow:0 0 34px #ffb02066; margin:0 0 14px; background:#0b1328; }
+.dselo { position:absolute; top:24px; right:24px; z-index:1; font-size:11px; font-weight:800; color:#05070f; background:var(--ambar);
+  border-radius:6px; padding:2px 7px; opacity:.92; }
+.dnome { display:block; font-family:Orbitron,sans-serif; font-weight:900; font-size:21px; color:var(--ambar); letter-spacing:1px; text-shadow:0 0 14px #ffb02066; }
+.dfrase { display:block; margin:6px 0 14px; color:#e9dcc0; font-size:15px; }
+@media (prefers-reduced-motion: reduce) { .destaque { animation:none; } }
 footer { margin-top:40px; text-align:center; color:var(--cinza); font-size:12px; }
 #cena { position:fixed; inset:0; width:100%; height:100%; z-index:0; opacity:0; transition:opacity 1.2s; pointer-events:none; }
 #cena.on { opacity:1; }
@@ -81,7 +91,7 @@ header img { animation:pulsa 3s ease-in-out infinite; }
   <div class="arroba">@techsecreto.br</div>
   <p class="tag">🔐 Sites, IAs e truques que parecem ilegais (mas não são). Todos os links dos vídeos estão aqui.</p>
 </header>
-<a class="cta" href="#p27">🔥 Sites do vídeo mais novo<small>toque e veja os links</small></a>
+<a class="destaque" href="https://s.shopee.com.br/W7xDZ6A0x" target="_blank" rel="sponsored noopener"><span class="dselo">link de afiliado</span><img class="dfoto" src="produto.jpg" alt="Fone M10 com visor LED"><span class="dnome">Fone M10 com visor LED</span><span class="dfrase">Fone sem fio com case que mostra a bateria no visor e ainda carrega o celular.</span><span class="pbotao">Ver na Shopee →</span></a><a class="cta" href="#p27">🔥 Sites do vídeo mais novo<small>toque e veja os links</small></a>
 <section id="parceiros" class="vitrine"><h2>⭐ Ferramentas que eu uso</h2><a class="parceiro" href="https://try.elevenlabs.io/4lo05v7lg8k6" target="_blank" rel="sponsored noopener"><span class="pnome">ElevenLabs</span><span class="ppitch">Transforma qualquer texto em narração com voz super realista. É a IA de voz que eu mais indico.</span><span class="pbotao">Testar grátis →</span></a><a class="parceiro" href="https://s.shopee.com.br/6AmCuFWA2v" target="_blank" rel="sponsored noopener"><span class="pnome">Achados Tech na Shopee</span><span class="ppitch">Fones, carregadores, luzes LED e gadgets de tecnologia com preço baixo e frete grátis em muitos.</span><span class="pbotao">Ver ofertas →</span></a><a class="parceiro" href="https://try.gamma.app/xfuzrmoqn4g8" target="_blank" rel="sponsored noopener"><span class="pnome">Gamma</span><span class="ppitch">Cria apresentações, documentos e sites inteiros com IA em 1 minuto. Só escrever o tema.</span><span class="pbotao">Testar grátis →</span></a></section>
 <a class="cta alt" href="https://www.instagram.com/techsecreto.br/" target="_blank" rel="noopener">📲 Siga no Instagram<small>uma descoberta nova todo dia</small></a>
 <h2 class="titulo-lista">📺 Links de cada vídeo</h2>
